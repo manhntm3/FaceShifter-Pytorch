@@ -135,3 +135,6 @@ dmypy.json
 
 *.jpg
 *.png
+
+# Miscellaneous
+rsync_between_server.sh
