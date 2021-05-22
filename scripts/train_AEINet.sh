@@ -1,0 +1,20 @@
+python train.py \
+    --name $2_AEINet_$3 \
+    --model AEINet \
+    --resize_shape 256,256 \
+    --data_dir ~/Dataset \
+    --gpu_ids 0 \
+    --batch_size 2 \
+    --iters_per_print 16 \
+    --iters_per_visual 320 \
+    --num_channels_g 32 \
+    --num_channels_d 32 \
+    --norm_type instance \
+    --num_epochs 60 \
+    --use_dropout False \
+    --use_mixer True \
+    --num_channels 1 \
+    --lr_policy step \
+    --lambda_mle 1e-5 \
+    --lr_step_epochs 20 \
+    --lambda_reg 0
