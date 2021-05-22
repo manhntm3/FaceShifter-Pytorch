@@ -26,8 +26,11 @@ python demo_image.py
 ## References:
 
 https://github.com/taotaonice/FaceShifter
+
 https://github.com/mindslab-ai/faceshifter
+
 https://github.com/taesungp/contrastive-unpaired-translation
+
 https://github.com/TreB1eN/InsightFace_Pytorch
 
 ```bibtex
