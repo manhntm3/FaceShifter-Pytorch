@@ -22,6 +22,7 @@ python test.py
 ```bash
 python demo_image.py
 ```
+![alt text](https://github.com/manhntm3/FaceShifter-Pytorch/blob/main/Screen%20Shot%202023-02-19%20at%2005.12.36.png?raw=true)
 
 ## References:
 
